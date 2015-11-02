@@ -1,3 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+.header--hero {
+	background-color:$river-blue;
+	border-bottom:10px solid mix(black, $river-blue, 18%);
+	margin-bottom:20px;
+    text-align: center;
+    color: white;
+    padding:60px;
+}
+
+.header__text {
+	font-size:60px;
+}
